@@ -1,5 +1,36 @@
 body {
-  margin: 20% auto;
-  width: 50%;
+  margin: 10% auto;
+  width: 30%;
   height: 75%;
+  background-color: orange;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+
+}
+
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#addition, #subtraction, #multiplication,
+#division, #modulus, #answer, #clear {
+height: 50px;
+width: 50px;
+font-size: 25px;
+margin: 10px;
+}
+
+.fn, .sn {
+  padding: 10px;
+}
+
+.bn {
+  padding: 20px;
+  max-width: 200px;
+  
 }
